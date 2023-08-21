@@ -30,10 +30,6 @@ body {
   height: 100%;
 }
 
-. site-avatar {
-  object-fit: inherit
-}
-
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -297,7 +293,7 @@ p > img {
     border-radius: 5px;
     width: 70px;
     height: 70px;
-    object-fit: cover;
+    object-fit: inherit;
   }
 }
 
