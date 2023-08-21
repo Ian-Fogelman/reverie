@@ -12,8 +12,8 @@ author: Ian Fogelman
 description: Wrangling Data, Riding Bytes: Database Cowboys at Your Service!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/logo.png
-# avatar: /images/logo-250x149.png
+#avatar: /images/logo.png
+ avatar: /images/logo-250x149.png
 
 #
 # Flags below are optional
