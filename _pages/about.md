@@ -8,6 +8,8 @@ permalink: /about/
 
 ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
+<img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300">
+
 Howdy Partner, my name is Ian, I am the sheriff round here.
 
 I can tell from your browser cookies you ain't from around these parts.
