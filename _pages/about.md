@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Me](/images/aboutme.png)
+![Me](/images/aboutme.png =250x250)
 
 Howdy Partner, my name is Ian, I am the sheriff round here.
 
