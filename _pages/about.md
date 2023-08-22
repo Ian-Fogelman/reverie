@@ -4,11 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Me](/images/aboutme.png =250x250)
-
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
-
-<img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300">
+<img src="https://i.ibb.co/Y29srDN/aboutme.png" width="300">
 
 Howdy Partner, my name is Ian, I am the sheriff round here.
 
