@@ -6,6 +6,8 @@ permalink: /about/
 
 ![Me](/images/aboutme.png =250x250)
 
+![](https://github.com/Ian-Fogelman/reverie/blob/gh-pages/images/aboutme.png | width=100)
+
 Howdy Partner, my name is Ian, I am the sheriff round here.
 
 I can tell from your browser cookies you ain't from around these parts.
