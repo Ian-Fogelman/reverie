@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ![Me](/images/aboutme.png)
-
+![<img src="/images/aboutme.png" height= "100" width="100"/>](/images/aboutme.png)
 Howdy Partner, my name is Ian, I am the sheriff round here.
 
 I can tell from your browser cookies you ain't from around these parts.
