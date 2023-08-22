@@ -4,26 +4,14 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+![Me](/images/aboutme.png)
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+Howdy Partner, my name is Ian, I am the sheriff round here.
 
-## Features
+I can tell from your browser cookies you ain't from around these parts.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+Here at Database Cowboys.org we ain't your ordinary hombres. No, sir. While most folks are wrangling cattle and chasing tumbleweeds, we tame a different kind of wild beast – data. We database cowboys ain't afraid to ride the range from sunrise to sundown, sorting through lines of code like a prospector panning for gold. Database Cowboys are armed with SQL bullets and Python lassos, and are ready to track down elusive bugs or wrangle any unruly database into submission.
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+Our campfire tales ain't about shootouts at high noon, but rather about optimizing queries at peak traffic. We spin yarns of rescuing lost data like a damsel in distress and outsmarting outlaws trying to breach the firewall. And when the Database Cowboys swagger into a saloon, it ain't poker chips we’re sliding across the table – it's insights and reports that'll make the town's bigwigs whistle Dixie.
+So, partner, next time you find yourself in need of some digital justice or some good data wrangling tips, keep an eye out for the Database Cowboys. With a Stetson pulled low and a keyboard at the ready, we're ridin' the range of data, one byte at a time.
+
