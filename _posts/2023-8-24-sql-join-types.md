@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Howdy
-categories: [Code,SQL, SQL Server, Joins]
+title:  SQL Join Types
+categories: [SQL, SQL Server, Join Types]
 ---
 
 Howdy partner, today we are going to explore the different types of SQL joins.
@@ -20,7 +20,7 @@ Use the following script to setup the database for this tutorial.
 
 <details>
   <summary>View script</summary>
-	```sql
+	<code>
 
 	CREATE DATABASE DB_COWBOYS
 	GO
@@ -151,7 +151,7 @@ Use the following script to setup the database for this tutorial.
 			ON C.ID = D.COWBOY_ID
 		JOIN TIMELINE AS T
 			ON T.TIMELINE_ID = C.ID
-	```
+	</code>
 </details>
 
 
