@@ -15,13 +15,6 @@ The three type of joins you will most commonly use in SQL are the inner, left ou
 The join concepts have often been referred to as venn diagrams. In the diagrams the left most table, what I refer to as the base table
 connects to other tables.
 
-inner join:
-
-left outter join:
-
-right outter join:
-
-
 # Setup Details
 
 Use the following command to pull a copy of the setup script for this tutorial. 
@@ -89,8 +82,8 @@ YEAR_DIED INT
 Next we populate the tables with data, in this case the data is cowboy specific!
 
 Cowboys - has an id, the cowboys full name, and nick name.
-Description - has a brief description with a foreign key relation shipto the id in the cowboys table.
-Timeline - has a foreign key relationship to the cowboy id and has the birth and death year of the cowboy.
+Description - has a a foreign key relationship to the cowboy id and a brief description.
+Timeline - has a foreign key relationship to the cowboy id and has his birth and death year.
 
 ```sql
 INSERT INTO COWBOYS
@@ -138,8 +131,87 @@ INSERT INTO TIMELINE
 VALUES(3,1837, 1876)
 ```
 
+# Explore the Join Types
 
+To see the table schema linked together run the following query:
 
+```sql
+SELECT * FROM COWBOYS AS C
+	INNER JOIN DESCRIPTIONS AS D
+		ON C.ID = D.COWBOY_ID
+	INNER JOIN TIMELINE AS T
+		ON T.TIMELINE_ID = C.ID
+```
 
+Notice that a query using `INNER JOIN` returns the same results as `JOIN`.
 
+```sql
+SELECT * FROM COWBOYS AS C
+	JOIN DESCRIPTIONS AS D
+		ON C.ID = D.COWBOY_ID
+	JOIN TIMELINE AS T
+		ON T.TIMELINE_ID = C.ID
+```
+
+Add a description for a cowboyid that does not exist yet in the `COWBOYS` table.
+
+```sql
+INSERT INTO DESCRIPTIONS
+VALUES (4, 'Buffalo Bill is no doubt an iconic figure of the Wild West. An American soldier, bison hunter, and showman, he was the founder of Buffalo Bill’s Wild West Show. 
+Bill started out as a Pony Express Rider on the American frontier. Later, he fought as a Union soldier in the American Civil War. During the Indian Wars, Buffalo Bill received a Medal of Honor from the US Army while serving as a civilian scout. 
+As Cody’s fame grew, he established the wildly popular re-enactment show Buffalo Bill’s Wild West. Featuring other legends such as Wild Bill Hickok, Texas Jack, Calamity Jane, Sitting Bull, and Annie Oakley, Buffalo Bill’s show received international acclaim. 
+The show entertained crowds from all over the world with trick-shooting, staged races, sideshows, and full re-enactments. Audiences could watch Pony Express riders racing through the plains amid wagon trains and Indian attacks. 
+Stagecoach robberies and gunfights delighted the onlookers, before culminating in the final scene of Custer’s Last Stand. Buffalo Bill’s Wild West Show even toured Europe eight times, between 1887 and 1906.
+')
+```
+
+If you left join from the `COWBOYS` table you will get the original inner join results.
+This is because all cowboys in the `COWBOYS` table have a description and `COWBOY_ID` in the `DESCRIPTIONS TABLE`.
+
+```sql
+SELECT * FROM COWBOYS AS C
+	LEFT JOIN DESCRIPTIONS AS D
+		ON C.ID = D.COWBOY_ID
+```
+
+To view the null records, i.e. the cowboy that does not have an id in the `COWBOYS` table:
+
+- Make the `DESCRIPTIONS` table the base table.
+- Use a left outer join.
+
+```sql
+SELECT * FROM DESCRIPTIONS AS D
+	LEFT JOIN COWBOYS AS C
+		ON C.ID = D.COWBOY_ID
+```
+
+You can also use a right outer join instead:
+
+```sql
+SELECT * FROM COWBOYS AS C
+	RIGHT JOIN DESCRIPTIONS AS D
+		ON C.ID = D.COWBOY_ID
+```
+
+Lets insert the last cowboys records into the `COWBOYS` and `TIMELINE` tables for a complete dataset:
+
+```sql
+INSERT INTO COWBOYS
+VALUES('William Frederick Cody','Buffalo Bill')
+
+INSERT INTO TIMELINE
+VALUES(4,1846,1917)
+```
+
+```sql
+SELECT * FROM COWBOYS AS C
+	JOIN DESCRIPTIONS AS D
+		ON C.ID = D.COWBOY_ID
+	JOIN TIMELINE AS T
+		ON T.TIMELINE_ID = C.ID
+```
+
+# Conclusion
+
+In this tutorial we created a table structure, inserted data, and ran the three different type of join queries to understand how each join affects the result set.
 
