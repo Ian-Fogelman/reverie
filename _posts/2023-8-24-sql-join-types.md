@@ -75,7 +75,9 @@ YEAR_DIED INT
 Next we populate the tables with data, in this case the data is cowboy specific!
 
 Cowboys - has an id, the cowboys full name, and nick name.
+
 Description - has a a foreign key relationship to the cowboy id and a brief description.
+
 Timeline - has a foreign key relationship to the cowboy id and has his birth and death year.
 
 ```sql
