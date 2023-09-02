@@ -166,7 +166,7 @@ Stagecoach robberies and gunfights delighted the onlookers, before culminating i
 ```
 
 If you left join from the `COWBOYS` table you will get the original inner join results.
-This is because all cowboys in the `COWBOYS` table have a description and `COWBOY_ID` in the `DESCRIPTIONS TABLE`.
+This is because all cowboys in the `COWBOYS` table have a description and `COWBOY_ID` in the `DESCRIPTIONS` table.
 
 ```sql
 SELECT * FROM COWBOYS AS C
