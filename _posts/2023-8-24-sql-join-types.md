@@ -17,21 +17,14 @@ connects to other tables.
 
 # Setup Details
 
-Use the following command to pull a copy of the setup script for this tutorial. 
+Use the following command to pull a copy of the setup script and open it in SQL Server Management Studio. 
 
 ```
 curl https://gist.githubusercontent.com/Ian-Fogelman/b8c37e835cd2bf48f94042d7f19fef06/raw/a0265565f83375f63426f9af28ed6699928cfee3/DBCB-Join-Types.sql -o DBCD-Join-Types.sql
 ```
 
-If you do not have a SQL server environment, use the SQL fiddle link in **Additional Details**.
+If you do not have a SQL server environment, use the [SQL fiddle link](http://sqlfiddle.com/#!18/edd5e7/5).
 
-<details>
-  <summary>Additional Details</summary>
-  <ul>
-  	<li>SQL Fiddle - http://sqlfiddle.com/#!18/edd5e7/5</li>
-  	<li>Full Script - https://gist.githubusercontent.com/Ian-Fogelman/b8c37e835cd2bf48f94042d7f19fef06/raw/a0265565f83375f63426f9af28ed6699928cfee3/DBCB-Join-Types.sql</li>
-  </ul>
-</details>
 
 # Create Database Tables
 
