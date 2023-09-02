@@ -19,8 +19,25 @@ The three type of joins you will most commonly use in SQL are the inner, left ou
 Use the following script to setup the database for this tutorial. 
 
 <details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+
+<details>
   <summary>View script</summary>
-	<code>
+	```sql
 
 	CREATE DATABASE DB_COWBOYS
 	GO
@@ -151,7 +168,7 @@ Use the following script to setup the database for this tutorial.
 			ON C.ID = D.COWBOY_ID
 		JOIN TIMELINE AS T
 			ON T.TIMELINE_ID = C.ID
-	</code>
+	```
 </details>
 
 
