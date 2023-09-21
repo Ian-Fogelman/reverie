@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  SQL Join Types
+title:  Getting Started With PySpark
 categories: [Python, SQL, Spark, PySpark]
 ---
 
