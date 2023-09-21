@@ -41,7 +41,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("Basics").getOrCreate()
 
 urllib.request.urlretrieve("https://gist.githubusercontent.com/Ian-Fogelman/e924c13d2ad838cad5d2c96398bf3073/raw/6d713de4a29223f35027748ce62fa7f8786755f7/iris.csv", "iris.csv")
-df = spark.read.csv('iris.csv')
+df = spark.read.csv('iris.csv', header='true')
 
 df.show()
 df.printSchema()
@@ -49,6 +49,6 @@ df.printSchema()
 
 Create a table and run raw SQL commands from a dataframe :
 ```
-df.createOrReplaceTempView("setosa")
-spark.sql("SELECT * from setosa").show()
+df.createOrReplaceTempView("iris")
+spark.sql("SELECT * from iris where species = 'setosa' limit 5").show()
 ```
