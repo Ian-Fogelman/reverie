@@ -6,6 +6,8 @@ categories: [Python, SQL, Spark, PySpark]
 
 This post outlines how to easily get started with PySpark.
 PySpark is the Python library for Apache Spark, an open-source, distributed computing system designed for big data processing and analytics.
+
+
 PySpark allows Python developers to leverage the power of Spark for distributed data processing while working within the Python programming environment. It has gained popularity for its flexibility, performance, and support for various data processing tasks, ranging from batch processing to machine learning and streaming data analytics.
 
 The easiest way to install PySpark is with Docker.
