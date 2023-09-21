@@ -11,6 +11,9 @@ PySpark is the Python library for Apache Spark, an open-source, distributed comp
 PySpark allows Python developers to leverage the power of Spark for distributed data processing while working within the Python programming environment. It has gained popularity for its flexibility, performance, and support for various data processing tasks, ranging from batch processing to machine learning and streaming data analytics.
 
 The easiest way to install PySpark is with Docker.
+If the image is not present on your system, Docker will pull it automatically.
+
+This Docker image [jupyter/pyspark-notebook](https://hub.docker.com/r/jupyter/pyspark-notebook) is maintained by the Jupyter Project.
 
 Docker command from terminal:
 
