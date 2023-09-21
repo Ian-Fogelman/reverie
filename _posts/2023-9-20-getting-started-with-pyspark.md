@@ -33,7 +33,7 @@ pause
 
 Once the Docker image loads, create a new notebook and paste the following code to validate your now running PySPark:
 
-MyFirstPySpark.ipyn
+MyFirstPySpark.ipynb
 ```
 import urllib.request
 from pyspark.sql import SparkSession
