@@ -3,8 +3,7 @@ layout: post
 title:  Getting Started With PySpark
 categories: [Python, SQL, Spark, PySpark]
 ---
-
-This post outlines how to easily get started with PySpark.
+Howdy partner, today we look at how to easily get started with PySpark.
 PySpark is the Python library for Apache Spark, an open-source, distributed computing system designed for big data processing and analytics.
 
 
