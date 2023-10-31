@@ -16,7 +16,8 @@ This procedure is useful for:
 2. Spin up a AWS EC2 instance with the Amazon Linux 2023 AMI.
 3. Connect via EC2 instance connect with a SSH session.
 4. Curl a file into the the EC2 instance with the command:
-```curl https://gist.githubusercontent.com/Ian-Fogelman/5b84773e5a1ad7c89fa2203132c36aa8/raw/850236999ca50e6737a5b1a8f3fb1bca80e518da/database_cowboys.txt --output database_cowboys.txt```
+   ```curl https://gist.githubusercontent.com/Ian-Fogelman/5b84773e5a1ad7c89fa2203132c36aa8/raw/database_cowboys.txt --output database_cowboys.txt```
+
    This creates a text file `database_cowboys.txt` in your working directory.
 5. Run the command ``pwd`` on your SSH session to get the current working directory.
    This command returns a directory: ``/home/ec2-user/``.
