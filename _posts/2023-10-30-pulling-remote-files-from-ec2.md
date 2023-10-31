@@ -20,7 +20,10 @@ This procedure is useful for:
 
 4. Curl a file into the the EC2 instance with the command:
 
-   ```cmd curl https://gist.githubusercontent.com/Ian-Fogelman/5b84773e5a1ad7c89fa2203132c36aa8/raw/database_cowboys.txt --output database_cowboys.txt```
+   <code>curl 
+   https://gist.githubusercontent.com/Ian-Fogelman/5b84773e5a1ad7c89fa2203132c36aa8/raw/database_cowboys.txt 
+   --output database_cowboys.txt
+   </code>
 
    This creates a text file `database_cowboys.txt` in your working directory.
 
