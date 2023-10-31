@@ -33,6 +33,6 @@ This procedure is useful for:
 
         - This command uses scp to initiate a connection, the ``-i`` is the identity file flag which points to ``ec2key.pem``.
         - The ``ec2-user`` is the username of your AWS IAM user (defaults to ec2-user).
-        - The ``12:12:12:12`` parameter is the public IPAddress. This can be found on the EC2 dashboard [Duck Duck Go](https://us-east-1.console.aws.amazon.com/ec2/home?  region=us-east-1#Instances) https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances.
+        - The ``12:12:12:12`` parameter is the public IPAddress. This can be found on the EC2 dashboard [https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances](https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances) .
         - The path after ``:`` is the working directory and the file name of the file you want to copy, in this cases ``/home/ec2-user/database_cowboys.txt``.
         - The ``.`` character specifies the local directory as the target for the transfer.
