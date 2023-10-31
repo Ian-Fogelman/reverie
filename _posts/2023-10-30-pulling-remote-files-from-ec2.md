@@ -28,11 +28,11 @@ This procedure is useful for:
    This command returns a directory: ``/home/ec2-user/``.
 
 6. On your local workstation use the SCP client to download the file from your EC2 instance:
-    a. You will need the key pair used when creating the instance to authenticate to your instance typcially a ``key-pair.pem`` file.
-    b. In your terminal use the command: ``scp -i ec2key.pem ec2-user@12.12.12.12:/home/ec2-user/database_cowboys.txt .``
+    - You will need the key pair used when creating the instance to authenticate to your instance typcially a ``key-pair.pem`` file.
+    - In your terminal use the command: ``scp -i ec2key.pem ec2-user@12.12.12.12:/home/ec2-user/database_cowboys.txt .``
 
-    This command uses scp to initiate a connection, the ``-i`` is the identity file flag which points to ``ec2key.pem``.
-    The ``ec2-user`` is the username of your AWS IAM user (defaults to ec2-user).
-    The ``12:12:12:12`` parameter is the public IPAddress. This can be found on the EC2 dashboard https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances.
-    The path after ``:`` is the working directory and the file name of the file you want to copy, in this cases ``/home/ec2-user/database_cowboys.txt``.
-    The ``.`` character specifies the local directory as the target for the transfer.
+        - This command uses scp to initiate a connection, the ``-i`` is the identity file flag which points to ``ec2key.pem``.
+        - The ``ec2-user`` is the username of your AWS IAM user (defaults to ec2-user).
+        - The ``12:12:12:12`` parameter is the public IPAddress. This can be found on the EC2 dashboard https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances.
+        - The path after ``:`` is the working directory and the file name of the file you want to copy, in this cases ``/home/ec2-user/database_cowboys.txt``.
+        - The ``.`` character specifies the local directory as the target for the transfer.
