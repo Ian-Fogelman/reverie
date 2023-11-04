@@ -66,5 +66,8 @@ Lets pretend we have a dataset such as this:
 <br>
 
 {% highlight sql %}
-  SELECT [NAME], COUNT(*) AS RecordCount FROM #TEMP_A GROUP BY [NAME] HAVING COUNT(*) >= 3
+  SELECT [NAME], COUNT(*) AS RecordCount 
+  FROM #TEMP_A 
+  GROUP BY [NAME] 
+  HAVING COUNT(*) >= 3
 {% endhighlight %}  
