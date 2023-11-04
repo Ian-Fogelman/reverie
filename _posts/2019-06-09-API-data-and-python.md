@@ -4,7 +4,7 @@ title:  Grist
 categories: [Python, API]
 ---
 
-Today I will discuss how to retreive restful API data using python.
+Howdy partner, today I will discuss how to retreive rest API data using python.
 
 In particular we will make use of the following libraries:
 
