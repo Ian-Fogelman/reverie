@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Grist
+title:  API data with Python
 categories: [Python, API]
 ---
 
