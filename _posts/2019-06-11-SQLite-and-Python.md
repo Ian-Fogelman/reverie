@@ -75,13 +75,6 @@ Notice the <strong> conn.commit() </strong> this will be required before any ope
 <br>
 <br>
 
-If we go back to our database we can see the record inside.
-
- ![SQLite Browser](/assets/img/SQLite002.PNG)
- 
-<br>
-<br>
-
 Lastly lets query the database table from our script and print the results. To do this we will once again leverage a cursor.
 
 <br>
